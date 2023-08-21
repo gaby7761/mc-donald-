@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">McDonald's</li>
+                <li class="lista-menu__item">
+                    <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="lista-menu__link">cardápio</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="lista-menu__link">promoções</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="lista-menu__link">pedidos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="lista-menu__link">localização</a>
+                </li>
+            </ul>
+            <img src="img/download.png" alt="Logo da Alurabooks" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Mc</b>Donald's</h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">cardápio</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="lista-menu__link">Brabo dos Méqui</a>
+                    
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="lista-menu__link">Acompanhamentos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="lista-menu__link">McLanche Feliz</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="lista-menu__link">Bebidas frias</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="lista-menu__link">Bebidas quentes</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">promoções</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Mcdia Feliz</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="https://www.mcdonalds.com.br/restaurantes" class="container__link">
+                <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+                <p class="container__texto">Localização</p>
+            </a>
+            <a href="https://www.mcdonalds.com.br/quemsomos/institucional" class="container__link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Quem Somos</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Mc-Donalds lançamentosApp
+            Já baixou o nosso App?</h2>
+        <p class="banner__texto">Peça seu delivery, veja o menu, baixe stickers, peça e retire, encontre os restaurantes mais próximos, tenha todos os cupons e muito mais.
+        </p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será seu próximo pedido?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/kKXNV8Kh.png"
+                            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                    <div class="swiper-slide"><img src="img/kPXBD0F9.png"
+                            alt="Livro sobre liderança em design da alura books"></div>
+                    <div class="swiper-slide"><img src="img/kMXFAQwe.png"
+                            alt="Livro sobre javascript assertivo da alurabooks"></div>
+                    <div class="swiper-slide"><img src="img/kKXG5823.png" alt="Livro Guia front end"></div>
+                    <div class="swiper-slide"><img src="img/kPXeSbhZ.png" alt="Livro sobre portugol"></div>
+                    <div class="swiper-slide"><img src="img/kLXQd4JD.png" alt="livro sobre acessibilidade"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">Donalds>Mac Café</h3>
+                        <h2 class="descrição__titulo-livro">salgados 
+
+                            
+                        </h2>
+                        <p class="descrição__texto">pão de queijo,
+                            bolo de laranja,
+                            croissant de chocolate, croissant de presunto e queijo, entre outros.
+                        </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/download (1).png" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                                        </ul>Donalds
+                    <!-- 2º coluna -->
+                    <a href="https://www.mcdonalds.com.br/pedidos" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/kJX8kVfQ.png"
+                            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                    <div class="swiper-slide"><img src="img/kJXXZSDC.png"
+                            alt="Livro sobre liderança em design da alura books"></div>
+                    <div class="swiper-slide"><img src="img/kLXTz3d2.png"
+                            alt="Livro sobre javascript assertivo da alurabooks"></div>
+                    <div class="swiper-slide"><img src="img/knXq3lpb.png" alt="Livro Guia front end"></div>
+                    <div class="swiper-slide"><img src="img/kKX01bP5.png" alt="Livro sobre portugol"></div>
+                    <div class="swiper-slide"><img src="img/kKXGzDAK.png" alt="livro sobre acessibilidade"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">Big Mac</h3>
+                        <h2 class="descrição__titulo-livro"></h2>
+                        <p class="descrição__texto">Dois hambúrgueres (100% carne bovina), alface americana, queijo sabor cheddar, molho especial, cebola, picles e pão com gergelim.
+                        </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/kzXCTbnv" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="https://www.mcdonalds.com.br/pedidos" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    Donalds
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Brabo Empanado de Queijo Minas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="tópicos__link">McFlurry Ovomaltine Rocks Mesclado</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="tópicos__link">Petit suisse sabor morango</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="tópicos__link">Casquinha mista</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="tópicos__link">Café com leite</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="tópicos__link">McFritas kids</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="tópicos__link">McFritas Cheddar Bacon</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="https://www.mcdonalds.com.br/pedidos/menu/promocoes" class="tópicos__link">Mega McNuggets</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de cardápio</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">McDonalds</h2>
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">contato</li>
+            <li class="lista-rodapé__item">
+                <img src="img/CasaDoCodigo.svg" alt="Logo da casa do código">
+                <a href="https://www.mcdonalds.com.br/contato" class="lista-rodapé__link">(44)984******</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/Caelum.svg" alt="Logo da caelum">
+                <a href="https://www.mcdonalds.com.br/contato" class="lista-rodapé__link">www.mcdonalds.com.br</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">família</li>
+            <li class="lista-rodapé__item">
+                <img src="img/Alura.svg" alt="Logo da Alura">
+                <a href="https://www.mcdonalds.com.br/lancamentos" class="lista-rodapé__link">Lançamentos </a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/AluraEmpresas.svg" alt="Logo da Alura para Empresas">
+                <a href="https://www.mcdonalds.com.br/pedidos" class="lista-rodapé__link">McLanche Feliz </a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/AluraLATAM.svg" alt="Logo da Alura Latam">
+                <a href="https://www.mcdonalds.com.br/pedidos" class="lista-rodapé__link">Méqui Box </a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/AluraStart.svg" alt="Logo da Alura START">
+                <a href="https://www.mcdonalds.com.br/mequipravc/appdomequi" class="lista-rodapé__link">App do Méqui</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/MusicDot.svg" alt="Logo da Music Dot">
+                <a href="https://www.mcdonalds.com.br/pedidos" class="lista-rodapé__link">McDelivery</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/AluraLingua.svg" alt="Logo da Alura Lingua">
+                <a href="https://www.mcdonalds.com.br/mequipravc/mequizap" class="lista-rodapé__link">Méqui Zap</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/PM3.svg" alt="Logo da PM3">
+                <a href="https://www.mcdonalds.com.br/pedidos" class="lista-rodapé__link">Drive-Thru</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Quem Somos</li>
+            <li class="lista-rodapé__item">
+                <img src="img/HipstersTech.svg" alt="Logo do Hipsters ponto Tech">
+                <a href="https://www.mcdonalds.com.br/mcdia-feliz/sobre-a-causa" class="lista-rodapé__link">Institucional </a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/ScubaDev.svg" alt="Logo do Scuba Dev">
+                <a href="https://www.mcdonalds.com.br/quemsomos/franquias" class="lista-rodapé__link">Franquias</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/LayersTech.svg" alt="Logo do Layers ponto Tech">
+                <a href="https://www.mcdonalds.com.br/quemsomos/trabalhe-conosco" class="lista-rodapé__link">Trabalhe Conosco </a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/LikeABoss.svg" alt="Logo do Like a Boss">
+                <a href="https://www.mcdonalds.com.br/quemsomos/privacidade" class="lista-rodapé__link">Privacidade</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/CarreiraSemFronteira.svg" alt="Logo do Carreira sem fronteiras">
+                <a href="mcdonalds.com.br/quemsomos/desenvolvimentosustentavel" class="lista-rodapé__link">Desenvolvimento Sustentável</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/HipstersJobs.svg" alt="Logo do Hipsters ponto jobs">
+                <a href="mcdonalds.com.br/quemsomos/desenvolvimentosustentavel" class="lista-rodapé__link">Compromisso Social </a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/GUJ.svg" alt="Logo do GUJ">
+                <a href="https://www.mcdonalds.com.br/quemsomos/publicidaderesponsavel" class="lista-rodapé__link">Publicidade Responsável </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
